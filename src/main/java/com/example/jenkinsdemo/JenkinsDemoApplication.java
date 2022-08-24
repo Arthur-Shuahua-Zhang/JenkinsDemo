@@ -17,6 +17,7 @@ public class JenkinsDemoApplication {
 @RestController
 class MyController {
 
+
     @GetMapping("hello")
     public String sayHello(){
         return "Hello, this is a big application";
